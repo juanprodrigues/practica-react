@@ -1,0 +1,42 @@
+npx create-react-app [name]
+cd [name]
+npm start
+
+solo dejar appjs y index js, para tenerlo mas limpio
+ link de butsptrap
+ 
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+PS C:\Users\JuanPR\Documents\Proyectos React\my-app> npm add eslint -D
+
+PS C:\Users\JuanPR\Documents\Proyectos React\my-app> npx eslint --init
+Need to install the following packages:
+
+Ok to proceed? (y) y
+√ How would you like to use ESLint? · style
+√ What type of modules does your project use? · esm
+√ Which framework does your project use? · react
+√ Does your project use TypeScript? · No / Yes
+√ Where does your code run? · browser
+√ How would you like to define a style for your project? · guide
+√ Which style guide do you want to follow? · airbnb
+√ What format do you want your config file to be in? · JSON
+√ Would you like to install them now? · No / Yes
+√ Which package manager do you want to use? · npm
+
+√ Would you like to install them now? · No / Yes
+√ Which package manager do you want to use? · npm
+
+
+rules en .eslint
+
+ "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+
+
+instalar de desarrollo
+  npm add prettier eslint-plugin-prettier eslint-config-prettier babel-eslint -D
